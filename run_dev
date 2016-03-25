@@ -1,0 +1,2 @@
+bee run &
+node_modules/watchify/bin/cmd.js static_source/main.js -o static/js/main.js
