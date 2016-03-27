@@ -1,4 +1,4 @@
 trap 'kill %1; kill %2; kill %3' SIGINT
-compass watch compass.conf &
+compass watch static_source/compass &
 node_modules/watchify/bin/cmd.js static_source/js/main.jsx -t babelify -o static/js/main.js &
 bee run
